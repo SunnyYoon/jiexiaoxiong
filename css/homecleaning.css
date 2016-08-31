@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header{height:130px;background:url(../images/header_bg.png) no-repeat center top;}
+.header .logo{float:left;padding-top:13px;}
+.header .register{float:right;}
+.header .register a{color:#323232;}
+.header .register a:hover{color:#109363;}
+.header .register span{padding:0px 5px;height:56px;line-height:56px;}
+.header ul{padding:76px 0px 16px;}
+.header ul li{float:left;line-height:37px;margin-right:5px;text-align:center;font-size:18px;width:144px;}
+.header ul li a:hover{color:#109363;}
+.header ul .baise a:hover{color:#fff;}
+.header ul .baise a{color:#fff;}
+.header ul li:nth-child(2){background-color:#109363;}
+
+.banner{height:203px;background:#109363;text-align:center;}
+
+.main .top{height:47px;padding-top:36px;}
+.main .top h2{float:left;margin-right:16px;color:#323232;font:normal 26px/27px "Microsoft YaHei";}
+.main .top p{float:left;height:27px;width:84px;background:#5d5d5d;line-height:27px;display:block;padding-left:9px;position:relative;color:#fff;}
+.main .top p span{position:absolute;right:9px;top:9px;}
+
+.main ul{padding-bottom:30px;}
+.main ul li{width:294px;float:left;position:relative;display:block;padding-right:8px;margin-bottom:30px;}
+.main ul li .one{width:276px;height:127px;display:block;border:1px solid #ccc;padding-top:7px;padding-left:16px;}
+.main ul li h3{font-size:20px;line-height:34px;height:34px;font-weight:normal;}
+.main ul li p{line-height:16px;height:32px;font-size:12px;width:260px;display:block;}
+.main ul li h4{line-height:62px;height:62px;font-size:20px;font-weight:normal;color:#ff4181;}
+.main ul li h4 span{font-weight:bold;font-size:26px;color:#ff4181;}
+
+.main .bot{height:457px;}
+.main .bot1{height:277px;background:url(../images/botbg_07.jpg) no-repeat center;}
+.main .bot2{height:180px;background:url(../images/botbg_09.jpg) no-repeat center;}
+
+.footer{height:122px;border-top:1px solid #ccc;}
+.footer .inner{text-align:center;}
+.footer .inner ul{height:29px;padding-left:254px;padding-top:38px;}
+.footer .inner li{float:left;font-size:12px;}
+.footer .inner li a{line-height:29px;color:#848484;}
+.footer .inner li a:hover{color:#109363;}
+.footer .inner li span{padding:0px 10px;}
+.footer .inner p{line-height:18px;color:#686868;font-size:12px;}
+
+.main ul li.meiyoumargin{padding-right:0px;}

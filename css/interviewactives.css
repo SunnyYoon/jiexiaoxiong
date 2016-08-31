@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header{height:130px;background:url(../images/header_bg.png) no-repeat center top;}
+.header .logo{float:left;padding-top:13px;}
+.header .register{float:right;}
+.header .register a{color:#323232;}
+.header .register a:hover{color:#109363;}
+.header .register span{padding:0px 5px;height:56px;line-height:56px;}
+.header ul{padding:76px 0px 16px;}
+.header ul li{float:left;line-height:37px;margin-right:5px;text-align:center;font-size:18px;width:144px;}
+.header ul li a:hover{color:#109363;}
+.header ul .baise a:hover{color:#fff;}
+.header ul .baise a{color:#fff;}
+.header ul li:nth-child(3){background-color:#109363;}
+
+.banner{height:182px;background:url(../images/view_bg.png) no-repeat center;}
+
+.main .top{height:467px;text-align:center;}
+.main h1{color:#646464;font-size:26px;font-weight:normal;padding-top:207px;}
+.main .bot{text-align:center;padding-bottom: 120px;}
+.main .bot h2{line-height:138px;font:400 50px/138px "Microsoft YaHei";color:#3b3e49;}
+
+.footer{height:272px;}
+.footer .inner{text-align:center;}
+.footer-top{height:150px;background:url(../images/footer_bg.png) no-repeat center top;border-bottom:1px solid #ccc;}
+.footer-bot{height:122;}
+.footer .inner ul{height:29px;padding-left:254px;padding-top:38px;}
+.footer .inner li{float:left;font-size:12px;}
+.footer .inner li a{line-height:29px;color:#848484;}
+.footer .inner li a:hover{color:#109363;}
+.footer .inner li span{padding:0px 10px;}
+.footer .inner p{line-height:18px;color:#686868;font-size:12px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

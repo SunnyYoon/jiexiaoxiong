@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header{height:130px;background:url(../images/header_bg.png) no-repeat center top;}
+.header .logo{float:left;padding-top:13px;}
+.header .register{float:right;}
+.header .register a{color:#323232;}
+.header .register a:hover{color:#109363;}
+.header .register span{padding:0px 5px;height:56px;line-height:56px;}
+.header ul{padding:76px 0px 16px;}
+.header ul li{float:left;line-height:37px;margin-right:5px;text-align:center;font-size:18px;width:144px;}
+.header ul li a:hover{color:#109363;}
+.header ul .baise a:hover{color:#fff;}
+.header ul .baise a{color:#fff;}
+.header ul li:nth-child(4){background-color:#109363;}
+
+.banner{height:876px;background:url(../images/vipyear.jpg) no-repeat center; background-size:cover;}
+
+.main1{height:1047px;background:url(../images/viplist_bg.png) no-repeat center;}
+.main1 .inner{padding-top:96px;}
+.main1 .inner .one{float:left;width:353px;height:419px;float:left;margin-right:54px;padding-bottom:58px;}
+.main1 .inner .one .one-top{width:353px;height:352px;background:url(../images/vipitem_bg.png) no-repeat;text-align:center;position:relative;}
+.main1 .inner p{width:60px;height:34px;line-height:34px;padding-top:26px;padding-left:147px;display:block;color:#fff;position:relative;font-size:18px;}
+.main1 .inner p .room{background:url(../images/vip_area.png) no-repeat;display:block;width:41px;height:10px;}
+.main1 .inner h2{display:inline-block;line-height:50px;height:50px;padding-top:206px;font-size:16px;font-weight:normal;color:#fff;}
+.main1 .inner h2 span{font-size:40px;font-weight:bold;}
+.main1 .inner .itemone{width:66px;position:absolute;left:53px;top:90px;}
+.main1 .inner .itemone span{line-height:36px;height:36px;}
+.main1 .inner .itemtwo{width:66px;position:absolute;right:61px;top:90px;}
+.main1 .inner .itemtwo span{line-height:36px;height:36px;}
+.main1 .inner .itemthree{width:66px;position:absolute;left:53px;top:180px;}
+.main1 .inner .itemthree span{line-height:43px;height:43px;}
+.main1 .inner .itemfour{width:66px;position:absolute;right:61px;top:167px;}
+.main1 .inner .itemfour span{line-height:30px;height:30px;}
+.main1 .inner .one .one-inner{width:353px;height:57px;text-align:center;padding-top:10px;}
+.main1 .inner .one .one-inner h3{line-height:19px;font-size:14px;font-weight:normal;color:#fff;}
+.main1 .inner .buyao{margin-right:32px;}
+.main1 .inner .one:nth-child(4){padding-bottom:55px;}
+.main1 .inner .one:nth-child(5){padding-bottom:55px;}
+.main1 .inner .one:nth-child(6){padding-bottom:55px;}
+
+.main2 .box1{height:565px;border-bottom:1px #ccc dotted;}
+.main2 .box1 dl{display:block;padding-top:34px;float:left;}
+.main2 .box1 dd{color:#8f8f8f;line-height:30px;font-size:16px;padding-top:23px;}
+.main2 .box1 dd p{line-height:30px;font-size:16px;}
+.main2 .box1 span{float:right;padding-top:90px;}
+.main2 span img{width:100%;}
+
+.main2 .box2{height:604px;border-bottom:1px #ccc dashed;}
+.main2 .box2 span{float:left;padding-top:82px;}
+.main2 .box2 dl{float:right;padding-top:21px;}
+.main2 .box2 dd{color:#8f8f8f;line-height:30px;font-size:16px;padding-top:23px;}
+.main2 .box2 dl dd p{line-height:30px;font-size:16px;padding-top:14px;}
+.main2 .box2 dl dd h2{font-size:16px;line-height:30px;font-weight:normal;}
+
+.main2 .box3{height:604px;border-bottom:1px #ccc dashed;}
+.main2 .box3 dl{display:block;float:left;padding-top:21px;}
+.main2 .box3 dd{color:#8f8f8f;line-height:30px;font-size:16px;padding-top:23px;}
+.main2 .box3 dd p{line-height:30px;font-size:16px;}
+.main2 .box3 span{float:right;padding-top:82px;}
+.main2 span img{width:100%;}
+
+.main2 .box4{height:565px;}
+.main2 .box4 span{float:left;padding-top:82px;}
+.main2 .box4 dl{float:right;padding-top:21px;}
+.main2 .box4 dd{color:#8f8f8f;line-height:30px;font-size:16px;padding-top:23px;}
+.main2 .box4 dl dd p{line-height:30px;font-size:16px;padding-top:30px;}
+.main2 .box4 dl dd h2{font-size:16px;line-height:30px;font-weight:normal;}
+
+.top{height:180px;background:url(../images/botbg_09.jpg) no-repeat center;}
+
+.footer{height:272px;}
+.footer .inner{text-align:center;}
+.footer-top{height:150px;background:url(../images/footer_bg.png) no-repeat center top;border-bottom:1px solid #ccc;}
+.footer-bot{height:122;}
+.footer .inner ul{height:29px;padding-left:254px;padding-top:38px;}
+.footer .inner li{float:left;font-size:12px;}
+.footer .inner li a{line-height:29px;color:#848484;}
+.footer .inner li a:hover{color:#109363;}
+.footer .inner li span{padding:0px 10px;}
+.footer .inner p{line-height:18px;color:#686868;font-size:12px;}

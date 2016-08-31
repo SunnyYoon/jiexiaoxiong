@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header{height:130px;background:url(../images/header_bg.png) no-repeat center top;}
+.header .logo{float:left;padding-top:13px;}
+.header .register{float:right;}
+.header .register a{color:#323232;}
+.header .register a:hover{color:#109363;}
+.header .register span{padding:0px 5px;height:56px;line-height:56px;}
+.header ul{padding:76px 0px 16px;}
+.header ul li{float:left;line-height:37px;margin-right:5px;text-align:center;font-size:18px;width:144px;}
+.header ul li a:hover{color:#109363;}
+.header ul .baise a:hover{color:#fff;}
+.header ul .baise a{color:#fff;}
+.header ul li:nth-child(6){background-color:#109363;}
+
+.aboutus{margin-bottom:20px;padding-top:247px;}
+.aboutus .list{float:left;width:142px;border:1px solid #3cc57f;margin-right:82px;text-align:center;}
+.aboutus .list .listul{background:#3cc57f;height:250px;}
+.aboutus .list .listul li{height:48px;line-height:48px;border-bottom:2px #fff solid;}
+.aboutus .list .listul li a{color:#fff;font-size:20px;}
+.aboutus .list .listul li:nth-child(1){background:#fff;}
+.aboutus .list .listul li:nth-child(1) a{color:#0e5d40;}
+
+.aboutus .content{float:left;width:42%;color:#5f5f5f;}
+.aboutus .content h2{font-weight:normal;font-size:26px;color:#139266;line-height:67px;height:67px;position:relative;padding-left:25px;}
+.aboutus .content h2:before{content:'';width:9px;height:40px;background-color:#139266;position:absolute;left:0;top:12px;}
+.aboutus .content p{line-height:27px;font-size:16px;padding-left: 23px;}
+.aboutus .bg{float:right;width:38%;height:432px;background:url(../images/iyojiavi.jpg) no-repeat 105px 78px;}
+
+.history span{padding-left:226px;display:block;}
+
+.production{height:898px;}
+.production-inner{width:974px;margin:0 auto;padding-left:226px;text-align:center;padding-bottom:71px;}
+.production .font{text-align:center;}
+.production .pro{padding-top:48px;color:#139266;font-weight:normal;font-size:26px;}
+.production p{line-height:49px;color:#5f5f5f;font-size:15px;}
+.production .productul li{float:left;margin-bottom:49px;}
+.production .productul li a{line-height:40px;height:40px;padding:0 27px;background:#0ca5b3;display:block;float:left;color:#fff;font-size:16px;}
+.production .productul li i{float:left;font-family:consolas;margin:13px 13px 0 6px;}
+.system .systemul{padding-left:169px;}
+.system .systemul li{width:304px;border:2px dashed #31eea9;text-align:center;margin:0 18px 18px 0;float:left;}
+.system .systemul li h3{height:33px;line-height:33px;padding-top:24px;color:#5f5f5f;font-size:24px;font-weight:normal;}
+.system .systemul li p{line-height:45px;height:45px;color:#5f5f5f;font-size:18px;}
+.fivesystem{text-align:left;padding-left:169px;padding-top:0;width:66%;}
+.fivesystem h2{text-align:center;line-height:62px;height:62px;color:#139266;font-size:24px;font-weight:normal;}
+.fivesystem p{line-height:26px;font-size:16px;}
+.fivesystem span{padding-left:150px;}
+
+.team{padding-top:10px;background:#e8e8e8;}
+.team .team-inner{width:974px;margin:0 auto;margin-left:226px;}
+.team-inner h2{line-height:67px;height:67px;position:relative;padding-left:25px;font-weight:normal;font-size:26px;color:#139266;}
+.team-inner h2:before{content:'';width:9px;height:40px;background-color:#139266;position:absolute;left:0;top:12px;}
+.team-inner p{line-height:26px;height:26px;color:#5f5f5f;}
+
+.pals-inner{width:974px;margin:0 auto;margin-left:226px;}
+.pals-inner h2{line-height:67px;height:67px;position:relative;padding-left:25px;font-weight:normal;font-size:26px;color:#139266;}
+.pals-inner h2:before{content:'';width:9px;height:40px;background-color:#139266;position:absolute;left:0;top:12px;}
+.pals-inner p{line-height:27px;font-size:16px;color:#5f5f5f;}
+.pals-inner span{height:207px;display:block;border-top:1px solid #dcdcdc;border-bottom:1px solid #dcdcdc;margin-top:31px;}
+
+.contact-inner{width:974px;margin:0 auto;margin-left:226px;}
+.contact-inner .left{float:left;}
+.contact-inner i{font-size:16px;padding-top:8px;}
+.contact-inner .left h2{line-height:67px;height:67px;position:relative;padding-left:25px;font-weight:normal;font-size:26px;color:#139266;}
+.contact-inner .left h2:before{content:'';width:9px;height:40px;background-color:#139266;position:absolute;left:0;top:12px;}
+.contact-inner .left dt{padding-left:30px;float:left;}
+.contact-inner .left dd{padding-left:32px;float:left;}
+.contact-inner .left dd .time{line-height:26px;color:#000;}
+.contact-inner .left dd .tel{line-height:31px;font-size:24px;color:#000;}
+.contact-inner .left dd .address{line-height:64px;font-size:16px;color:#000;}
+.contact-inner .right{float:right;width:454px;}
+.contact-inner .right span{float:left;}
+.contact-inner .right .wechat{float:left;background:url(../images/chat.jpg) no-repeat;height:85px;margin-left:22px;}
+.contact-inner .right .wechat p{padding-top:40px;}
+.contact-inner .right .wechat p span{color:#c30000;}
+.contact-inner .right .wc{padding-top:67px;}
+.contact-inner .right .black{color:#000;font-size:16px;letter-spacing:4px;}
+
+.footer{height:122px;border-top:1px solid #ccc;}
+.footer .inner{text-align:center;}
+.footer .inner ul{height:29px;padding-left:254px;padding-top:38px;}
+.footer .inner li{float:left;font-size:12px;}
+.footer .inner li a{line-height:29px;color:#848484;}
+.footer .inner li a:hover{color:#109363;}
+.footer .inner li span{padding:0px 10px;}
+.footer .inner p{line-height:18px;color:#686868;font-size:12px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
